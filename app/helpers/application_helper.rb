@@ -8,5 +8,10 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+
+  def logo
+    image_tag("fan2.jpeg", :alt => "NFL Fans", :class => "round")
+  end
+
 end
 
