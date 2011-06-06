@@ -8,17 +8,26 @@ class PagesController < ApplicationController
     end
 end
 
-  def contact
-    @title = "Contact"
+  def grievances
+    @title = "Grievances"
   end
 
-  def about
-    @title = "About"
+  def bylaws
+    @title = "Bylaws"
   end
 
-  def help
-    @title = "Help"
+  def books
+    @title = "Books"
   end
+
+ def donate
+   @title = "Donate"
+ end
+
+ def donors
+   @title = "Donors"
+ end
+
 
 end
   
